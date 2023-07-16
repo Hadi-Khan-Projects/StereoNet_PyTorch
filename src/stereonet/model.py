@@ -16,7 +16,7 @@ import torch.nn.functional as F
 import lightning.pytorch as pl
 from lightning.pytorch import loggers as pl_loggers
 
-import stereonet.utils as utils
+import src.stereonet.utils as utils
 
 
 class StereoNet(pl.LightningModule):
